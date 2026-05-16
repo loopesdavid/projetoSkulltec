@@ -1,16 +1,39 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import Navbar from './components/Navbar'
-import Main from './components/Main'
-import Services from './components/Services'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Solutions from './pages/Solutions'
+import Partners from './pages/Partners'
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
+
       <Navbar />
-      <Main />
-      <Services />
+
+      <Routes>
+
+        <Route
+          path="/"
+          element={<Home />}
+        />
+
+        <Route
+          path="/solucoes"
+          element={<Solutions />}
+        />
+
+        <Route
+          path="/parcerias"
+          element={<Partners />}
+        />
+
+      </Routes>
+
       <Footer />
-    </>
+
+    </BrowserRouter>
   )
 }
 

@@ -1,0 +1,39 @@
+function Footer() {
+  return (
+    <footer className="footer">
+
+      <div className="footer-left">
+        <div className="footer-logo-placeholder"></div>
+
+        <div>
+          <h2>SKULL TEC</h2>
+
+          <p>
+            Na mente da caveira,
+            nasce o código.
+          </p>
+        </div>
+      </div>
+
+      <div className="footer-center">
+        <p>Soluções</p>
+        <p>Parcerias</p>
+        <p>Agendar Reunião</p>
+        <p>Entrar</p>
+      </div>
+
+      <div className="footer-right">
+        <div className="social-icon"></div>
+        <div className="social-icon"></div>
+        <div className="social-icon"></div>
+      </div>
+
+      <div className="footer-copy">
+        © Skull Tec — Todos os direitos reservados
+      </div>
+
+    </footer>
+  )
+}
+
+export default Footer

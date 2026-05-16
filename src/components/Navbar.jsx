@@ -1,10 +1,19 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 function Navbar() {
+
+  const scrollToServices = () => {
+    const section = document.getElementById('services')
+
+    section?.scrollIntoView({
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <header className="navbar">
+
       <div className="logo-area">
-        {/* COLOQUE SUA LOGO AQUI */}
         <div className="logo-placeholder"></div>
 
         <h1>SKULL TEC</h1>
@@ -12,9 +21,19 @@ function Navbar() {
 
       <nav>
         <ul className="nav-links">
-          <li><Link to="/">Início</Link></li>
-          <li><Link to="/solucoes">Soluções</Link></li>
-          <li><Link to="/parcerias">Parcerias</Link></li>
+
+          <li>
+            <Link to="/">Início</Link>
+          </li>
+
+          <li onClick={scrollToServices}>
+            Soluções
+          </li>
+
+          <li>
+            <Link to="/parcerias">Parcerias</Link>
+          </li>
+
         </ul>
       </nav>
 

@@ -53,19 +53,6 @@ body {
   cursor: pointer;
 }
 
-.login-btn {
-  background: black;
-  color: white;
-
-  border: none;
-  border-radius: 30px;
-
-  padding: 12px 28px;
-
-  font-weight: bold;
-  cursor: pointer;
-}
-
 /* HERO */
 
 .hero {

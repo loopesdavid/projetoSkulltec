@@ -17,9 +17,6 @@ function Navbar() {
         </ul>
       </nav>
 
-      <button className="login-btn">
-        Entrar
-      </button>
     </header>
   )
 }

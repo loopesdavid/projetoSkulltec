@@ -18,8 +18,7 @@ function Footer() {
       <div className="footer-center">
         <p>Soluções</p>
         <p>Parcerias</p>
-        <p>Agendar Reunião</p>
-        <p>Entrar</p>
+        <p>Agendar Reunião via WhatsApp</p>
       </div>
 
       <div className="footer-right">

@@ -14,7 +14,11 @@ function Navbar() {
     <header className="navbar">
 
       <div className="logo-area">
-        <div className="logo-placeholder"></div>
+        <img 
+          src="./assets/logosemtexto.png" 
+          alt="Skull Tec" 
+          className="logo-image"
+        />
 
         <h1>SKULL TEC</h1>
       </div>

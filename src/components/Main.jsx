@@ -14,7 +14,7 @@ function Main() {
 
         <div className="hero-image">
           {/* IMAGEM PRINCIPAL AQUI */}
-          <div className="image-placeholder"></div>
+          <img src="/assets/logosemtexto.png" alt="Skull Tec" className="logo-image"/>
         </div>
 
         <div className="right-text">

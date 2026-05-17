@@ -1,3 +1,6 @@
+import navegalogo from '../assets/navegalogo.png'
+import fiestalogo from '../assets/fiestalogo.png'
+
 function Partners() {
   return (
     <section className="page-container">
@@ -12,7 +15,7 @@ function Partners() {
       <div className="partner-card">
 
         <div className="partner-image">
-          {/* IMAGEM DA EMPRESA PARCEIRA */}
+          <img src={navegalogo} alt="Navega logo" className="partner-logo"  />
         </div>
 
         <div>
@@ -29,15 +32,15 @@ function Partners() {
       <div className="partner-card">
 
         <div className="partner-image">
-          {/* IMAGEM DA EMPRESA PARCEIRA */}
+          <img src={fiestalogo} alt="Fiesta logo" className="partner-logo" />
         </div>
 
         <div>
           <h2>Empresa Parceira</h2>
 
           <p>
-            Aqui você poderá colocar a descrição
-            da parceria e os projetos realizados.
+            O restaurante mexicano Fiesta é um dos nossos novos parceiros,
+            com quem desenvolvemos sistemas visionários atualmente.
           </p>
         </div>
 

@@ -1,9 +1,13 @@
+import logosemtexto from '../assets/logosemtexto.png'
+
 function Footer() {
   return (
     <footer className="footer">
 
       <div className="footer-left">
-        <div className="footer-logo-placeholder"></div>
+        <div className="footer-logo-placeholder">
+          <img src={logosemtexto} alt="Skull Tec" className="logo-image"/>
+        </div>
 
         <div>
           <h2>SKULL TEC</h2>

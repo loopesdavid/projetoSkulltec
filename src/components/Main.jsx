@@ -1,3 +1,5 @@
+import logowhite from '../assets/logowhite.png'
+
 function Main() {
   return (
     <section className="hero">
@@ -14,7 +16,7 @@ function Main() {
 
         <div className="hero-image">
           {/* IMAGEM PRINCIPAL AQUI */}
-          <img src="/assets/logosemtexto.png" alt="Skull Tec" className="logo-image"/>
+          <img src={logowhite} alt="Skull Tec" className="logo-image"/>
         </div>
 
         <div className="right-text">

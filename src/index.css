@@ -100,6 +100,18 @@ body {
   z-index: 2;
 }
 
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image .logo-image {
+  width: 340px;
+  height: auto;
+  max-width: 100%;
+}
+
 .left-text h2,
 .right-text h2 {
   font-size: 72px;

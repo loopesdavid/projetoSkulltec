@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import logosemtexto from '../assets/logosemtexto.png'
 
 function Navbar() {
 
@@ -15,7 +16,7 @@ function Navbar() {
 
       <div className="logo-area">
         <img 
-          src="./assets/logosemtexto.png" 
+          src={logosemtexto} 
           alt="Skull Tec" 
           className="logo-image"
         />

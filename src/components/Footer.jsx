@@ -26,9 +26,7 @@ function Footer() {
       </div>
 
       <div className="footer-right">
-        <div className="social-icon"></div>
-        <div className="social-icon"></div>
-        <div className="social-icon"></div>
+        
       </div>
 
       <div className="footer-copy">

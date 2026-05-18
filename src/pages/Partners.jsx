@@ -19,7 +19,7 @@ function Partners() {
         </div>
 
         <div>
-          <h2>Empresa Parceira</h2>
+          <h2>NavegaMundo</h2>
 
           <p>
             Realizamos um projeto conjunto com a empresa parceira Navega mundo,
@@ -36,11 +36,23 @@ function Partners() {
         </div>
 
         <div>
-          <h2>Empresa Parceira</h2>
+          <h2>Fiesta Mexicana</h2>
 
           <p>
             O restaurante mexicano Fiesta é um dos nossos novos parceiros,
             com quem desenvolvemos sistemas visionários atualmente.
+          </p>
+        </div>
+
+        <div className="partner-image">
+          <img src={fiestalogo} alt="Fiesta logo" className="partner-logo" />
+        </div>
+
+        <div>
+          <h2>Consultoria Financeira Crescer</h2>
+
+          <p>
+            Mensagem da parceria
           </p>
         </div>
 

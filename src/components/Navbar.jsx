@@ -39,6 +39,13 @@ function Navbar() {
             <Link to="/parcerias">Parcerias</Link>
           </li>
 
+          <li>
+            <link to="">Cadastrar</link>
+          </li>
+
+          <li>
+            <link to="">Entrar</link>
+          </li>
         </ul>
       </nav>
 

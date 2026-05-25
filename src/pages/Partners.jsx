@@ -44,6 +44,8 @@ function Partners() {
           </p>
         </div>
 
+      <div className="partner-card">
+
         <div className="partner-image">
           <img src={fiestalogo} alt="Fiesta logo" className="partner-logo" />
         </div>
@@ -55,6 +57,8 @@ function Partners() {
             Mensagem da parceria
           </p>
         </div>
+        
+      </div>
 
       </div>
     </section>

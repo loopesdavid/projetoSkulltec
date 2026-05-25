@@ -1,20 +1,17 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-import Navbar from './components/Navbar'
+import {Routes, Route, Link} from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import Solutions from './pages/Solutions'
 import Partners from './pages/Partners'
+function App(){
+  return(
+    <div>
+      <Navbar/>
 
-function App() {
-  return (
-    <BrowserRouter>
-
-      <Navbar />
-
+      <hr/>
       <Routes>
-
         <Route
           path="/"
           element={<Home />}
@@ -29,12 +26,10 @@ function App() {
           path="/parcerias"
           element={<Partners />}
         />
-
       </Routes>
 
-      <Footer />
-
-    </BrowserRouter>
+      <Footer/>
+    </div>
   )
 }
 

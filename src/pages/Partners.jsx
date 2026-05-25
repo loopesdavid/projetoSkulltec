@@ -1,5 +1,6 @@
 import navegalogo from '../assets/navegalogo.png'
 import fiestalogo from '../assets/fiestalogo.png'
+import consultoriasemfundo from '../assets/consultoriasemfundo.png'
 
 function Partners() {
   return (
@@ -43,22 +44,21 @@ function Partners() {
             com quem desenvolvemos sistemas visionários atualmente.
           </p>
         </div>
+      </div>
 
       <div className="partner-card">
 
         <div className="partner-image">
-          <img src={fiestalogo} alt="Fiesta logo" className="partner-logo" />
+          <img src={consultoriasemfundo} alt="Fiesta logo" className="partner-logo" />
         </div>
 
         <div>
           <h2>Consultoria Financeira Crescer</h2>
 
           <p>
-            Mensagem da parceria
+            Todo mundo nasce beta, mas as escolhas da vida te faz um bode
           </p>
         </div>
-        
-      </div>
 
       </div>
     </section>
